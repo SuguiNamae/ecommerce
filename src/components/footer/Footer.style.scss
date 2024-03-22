@@ -1,0 +1,49 @@
+.footerall {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 55px;
+}
+.basicinfo {
+    display: flex;
+    flex-direction: column;
+    p {
+        text-align: left;
+    }
+}
+.forgrid {
+    display: flex;
+    gap: 90px;
+    text-align: left;
+}
+.forgrid * {
+    :first-child{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    padding-bottom: 10px;
+}
+.pop1 {
+    color: #C2EBFC;
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.forphonfooter {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    gap: 20px;
+    color: #797B7E;
+}
+.foremailfooter {
+    display: flex;
+    color: #797B7E;
+    gap: 20px;
+}
+.footertxt {
+    font-size: 1.2rem;
+    font-weight: 350;
+}

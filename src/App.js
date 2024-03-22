@@ -12,6 +12,7 @@ import BestSellers from "./components/BestSellers/BestSellers";
 import Sells from "./components/Sells/Sells";
 import Brands from "./components/Brands/Brands";
 import Rights from "./components/rights/Rights";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <BestSellers />
       <Sells />
       <Brands />
+      <Footer/>
       <Rights />
     </div>
   );

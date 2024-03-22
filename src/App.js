@@ -7,6 +7,7 @@ import Slideshow from "./components/slideshow/slideshow";
 import Handmade from "./components/handmade/handmade";
 import NewProducts from "./components/NewProducts/NewProducts";
 import IceCream from "./components/IceCream/IceCream";
+import GiftIdeas from "./components/GiftIdeas/GiftIdeas";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Handmade />
       <NewProducts />
       <IceCream />
+      <GiftIdeas />
     </div>
   );
 }

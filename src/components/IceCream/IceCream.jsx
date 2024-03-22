@@ -1,5 +1,6 @@
 import React from "react";
 import "./IceCream.style.scss";
+import ButtonShopNow from '../ButtonShopNow/ButtonShopNow'
 const IceCream = () => {
   return (
     <div className="containallpage">
@@ -13,7 +14,7 @@ const IceCream = () => {
           New! Miss Gla'gla Sorbet Ispahan Rose,
           <br /> Litchi & Raspberry - $6.90
         </p>
-        <button className="btnicecream">SHOP NOW</button>
+        <ButtonShopNow/>
       </div>
     </div>
   );

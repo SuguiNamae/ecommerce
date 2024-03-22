@@ -1,0 +1,51 @@
+.mainflexdiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.squarediv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 750;
+    background-image: url("../../../public/assets/images/img_16_300x300.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 52dvh;
+    width: 26dvw;
+    :first-child{
+        font-size: 4rem;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+.squaredivsecond {
+    background-image: url("../../../public/assets/images/img_19_2000x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 52dvh;
+    width: 50dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    :first-child{
+        font-size: 1.3rem;
+        padding-top: 55px;
+        padding-bottom: 37px;
+    }
+    :nth-child(2) {
+        font-size: 2.9rem;
+        font-weight: 650;
+        line-height: 2.6rem;
+        padding-bottom: 50px;
+    }
+}

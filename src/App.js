@@ -11,6 +11,7 @@ import GiftIdeas from "./components/GiftIdeas/GiftIdeas";
 import BestSellers from "./components/BestSellers/BestSellers";
 import Sells from "./components/Sells/Sells";
 import Brands from "./components/Brands/Brands";
+import Rights from "./components/rights/Rights";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <BestSellers />
       <Sells />
       <Brands />
+      <Rights />
     </div>
   );
 }

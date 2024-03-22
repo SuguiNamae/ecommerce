@@ -18,12 +18,15 @@
     background-size: cover;
     height: 52dvh;
     width: 26dvw;
+    transition: 1s;
     :first-child{
         font-size: 4rem;
         padding: 0;
         margin: 0;
     }
-
+}
+.squarediv:hover {
+    background-size: 102%;
 }
 .squaredivsecond {
     background-image: url("../../../public/assets/images/img_19_2000x.png");

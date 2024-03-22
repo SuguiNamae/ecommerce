@@ -8,6 +8,8 @@ import Handmade from "./components/handmade/handmade";
 import NewProducts from "./components/NewProducts/NewProducts";
 import IceCream from "./components/IceCream/IceCream";
 import GiftIdeas from "./components/GiftIdeas/GiftIdeas";
+import BestSellers from "./components/BestSellers/BestSellers";
+import Sells from "./components/Sells/Sells";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <NewProducts />
       <IceCream />
       <GiftIdeas />
+      <BestSellers />
+      <Sells />
     </div>
   );
 }

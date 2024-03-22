@@ -1,0 +1,39 @@
+.twodivs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sells1 {
+    background-image: url("../../../public/assets/images/img_17_720x.png");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 43dvh;
+    width: 37dvw;
+    color: #FFFFFF;
+    font-size: 2.9rem;
+    font-weight: 600;
+    :first-child{
+        padding-bottom: 20px;
+    }
+}
+.sells2 {
+    background-image: url("../../../public/assets/images/img_18_720x.png");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 43dvh;
+    width: 37dvw;
+    color: #FFFFFF;
+    font-size: 2.9rem;
+    font-weight: 600;
+    :first-child{
+        padding-bottom: 20px;
+    }
+}

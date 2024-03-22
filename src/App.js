@@ -3,6 +3,7 @@ import './App.css';
 import AdvertismentBar from './components/AdvertismentBar/AdvertismentBar';
 import Header from './components/header/header';
 import Carousel from './components/carousel/carousel';
+import TextAd from './components/TextAd/TextAd';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AdvertismentBar/>
       <Header/>
       <Carousel/>
+      <TextAd/>
     </div>
   );
 }

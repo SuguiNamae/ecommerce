@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containtexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.p1 {
+    color: #C3EAFB;
+    font-size: 4.2rem;
+    font-weight: 350
+}
+.p2 {
+    color: #C3EAFB;
+    font-size: 5rem;
+    font-weight: 500;
+}
+.p3 {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 50%;
+}
+.p4 {
+    color: #F3F3F3;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #C3EAFB;
+    padding: 0;
+    width: 9.5rem;
+    height: 2.8rem;
+    border-radius: 20px;
+    :hover{
+        color: #0F1111;
+
+    }
+}

@@ -5,6 +5,7 @@ import Header from './components/header/header';
 import Carousel from './components/carousel/carousel';
 import TextAd from './components/TextAd/TextAd';
 import Slideshow from './components/slideshow/slideshow';
+import Handmade from './components/handmade/handmade';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Carousel/>
       <TextAd/>
       <Slideshow/>
+      <Handmade/>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import AdvertismentBar from './components/AdvertismentBar/AdvertismentBar';
 import Header from './components/header/header';
 import Carousel from './components/carousel/carousel';
 import TextAd from './components/TextAd/TextAd';
+import Slideshow from './components/slideshow/slideshow';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Carousel/>
       <TextAd/>
+      <Slideshow/>
     </div>
   );
 }

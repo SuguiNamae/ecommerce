@@ -10,6 +10,7 @@ import IceCream from "./components/IceCream/IceCream";
 import GiftIdeas from "./components/GiftIdeas/GiftIdeas";
 import BestSellers from "./components/BestSellers/BestSellers";
 import Sells from "./components/Sells/Sells";
+import Brands from "./components/Brands/Brands";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <GiftIdeas />
       <BestSellers />
       <Sells />
+      <Brands />
     </div>
   );
 }

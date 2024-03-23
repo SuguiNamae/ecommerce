@@ -1,0 +1,21 @@
+.multiusecomp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    img {
+        width: 36dvw;
+        height: 40dvh;
+    }
+}
+.multititle {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.multiusenormaltxt {
+    font-size: 1rem;
+    color: #797B7E;
+}

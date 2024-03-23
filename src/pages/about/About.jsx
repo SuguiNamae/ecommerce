@@ -12,6 +12,7 @@ const About = () => {
       <AdvertismentBar />
       <Header />
       <Currentpath />
+      <MultiUseAbout directio="lp"/>
       <MultiUseAbout/>
       <Footer />
       <Rights/>

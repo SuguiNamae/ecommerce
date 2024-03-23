@@ -1,36 +1,26 @@
 import "./App.css";
-import AdvertismentBar from "./components/AdvertismentBar/AdvertismentBar";
-import Header from "./components/header/header";
-import Carousel from "./components/carousel/carousel";
-import TextAd from "./components/TextAd/TextAd";
-import Slideshow from "./components/slideshow/slideshow";
-import Handmade from "./components/handmade/handmade";
-import NewProducts from "./components/NewProducts/NewProducts";
-import IceCream from "./components/IceCream/IceCream";
-import GiftIdeas from "./components/GiftIdeas/GiftIdeas";
-import BestSellers from "./components/BestSellers/BestSellers";
-import Sells from "./components/Sells/Sells";
-import Brands from "./components/Brands/Brands";
-import Rights from "./components/rights/Rights";
-import Footer from "./components/footer/Footer";
-
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import Home from "./pages/home/home";
+import About from "./pages/about/About";
 function App() {
+  // const router = createBrowserRouter(
+  //   createRoutesFromElements(
+  //     <Route path="/" element={<Layout />}>
+  //       {/* <Route path={":type"} element={<HomePage />} />
+  //       <Route path=":type/:id" element={<PetDetailsPage />} />
+  //       <Route path="Search" element={<SearchPage />} />
+  //       <Route path="pet-detail-not-found" element={<PetDetailsNotFound/>} /> */}
+  //     </Route>
+  //   )
+  // );
   return (
     <div className="App">
-      <AdvertismentBar />
-      <Header />
-      <Carousel />
-      <TextAd />
-      <Slideshow />
-      <Handmade />
-      <NewProducts />
-      <IceCream />
-      <GiftIdeas />
-      <BestSellers />
-      <Sells />
-      <Brands />
-      <Footer/>
-      <Rights />
+      <About/>
     </div>
   );
 }

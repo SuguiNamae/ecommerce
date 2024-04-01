@@ -1,13 +1,12 @@
 import {
-  Route,
   createBrowserRouter,
-  createRoutesFromElements,
 } from "react-router-dom";
 import Home from "../pages/home/home";
 import About from "../pages/about/About";
 import NotFound from "../pages/NotFound/NotFound";
 import Sale from "../pages/sale/Sale";
 import ContactUs from "../pages/contactus/ContactUs";
+import Shop from "../pages/shop/Shop";
 
 export const router = createBrowserRouter([
   {
@@ -27,4 +26,8 @@ export const router = createBrowserRouter([
     path: "/contact-us",
     element: <ContactUs />,
   },
+  {
+    path: "/shopping",
+    element: <Shop/>
+  }
 ]);

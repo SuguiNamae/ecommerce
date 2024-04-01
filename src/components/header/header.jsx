@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='whitebar'>
         <div className='divlogo'>POPSHOP</div>
-        <div className='divnav'> <Link to={"/"}>HOME</Link> <Link to={"/"}>SHOP</Link> <Link to={"/About"}>ABOUT</Link> <div className='headerforblog'>BLOG</div> <Link to={"/"}>SALE</Link> <Link to={"/"}>CONTACT US</Link></div>
+        <div className='divnav'> <Link to={"/"}>HOME</Link> <Link to={"/"}>SHOP</Link> <Link to={"/About"}>ABOUT</Link> <div className='headerforblog'>BLOG</div> <Link to={"/colections"}>SALE</Link> <Link to={"/"}>CONTACT US</Link></div>
         <div className='divprof'><PersonOutlineOutlinedIcon/> <SearchIcon/> <FavoriteBorderOutlinedIcon/> <ShoppingBagOutlinedIcon/> <div className='circleblack'>0</div></div>
     </div>
   )

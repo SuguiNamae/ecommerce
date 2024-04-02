@@ -4,11 +4,11 @@ import ChevronRightOutlinedIcon from "@mui/icons-material/ChevronRightOutlined";
 const SideMenu = () => {
   return (
     <div className="sidemenuforall">
-      <div>
+      <div className="sidemenucollechover">
         <p>COLLECTIONS</p>
         <ChevronRightOutlinedIcon />
       </div>
-      <div>
+      <div className="sidemenucomphover">
         <p>COMPANY</p>
         <ChevronRightOutlinedIcon />
       </div>

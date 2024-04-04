@@ -18,9 +18,12 @@ const SideMenu = () => {
         </button>
         {toggle1 ? (
           <div>
-            <MenuItem>Profile</MenuItem>
-            <MenuItem>My account</MenuItem>
-            <MenuItem>Logout</MenuItem>
+            <MenuItem>Bakery</MenuItem>
+            <MenuItem>Caramels</MenuItem>
+            <MenuItem>Chocolate</MenuItem>
+            <MenuItem>Cookies</MenuItem>
+            <MenuItem>Ice-cream</MenuItem>
+            <MenuItem>Sale</MenuItem>
           </div>
         ) : null}
       </div>
@@ -35,9 +38,9 @@ const SideMenu = () => {
 
         {toggle2 ? (
           <div>
-            <MenuItem>Profile2</MenuItem>
-            <MenuItem>My account2</MenuItem>
-            <MenuItem>Logout2</MenuItem>
+            <MenuItem>About Us</MenuItem>
+            <MenuItem>Contact Us</MenuItem>
+            <MenuItem>Privacy Policy</MenuItem>
           </div>
         ) : null}
       </div>

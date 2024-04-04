@@ -5,7 +5,6 @@ const SearchBar = () => {
   return (
     <div className="searchbarforall">
       <SearchIcon />
-
       <input type="text" placeholder="search" className="searchbartextarea" />
     </div>
   );

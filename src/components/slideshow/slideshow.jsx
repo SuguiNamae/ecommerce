@@ -2,7 +2,8 @@ import React from "react";
 import "./slideshow.style.scss";
 import { useState } from "react";
 import Slideshow_Component from "../slideshow.component/slideshow.component";
-
+import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
+import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 const Slideshow = () => {
   const totalComponents = 5;
   const [startIndex, setStartIndex] = useState(1);
@@ -37,15 +38,15 @@ const Slideshow = () => {
         ImgSrc="/assets/images/img_25_370x489_crop_center.png.jpg"
       />,
     ];
-    return [components[startIndex], components[startIndex+1], components[startIndex+2]];
+    return [components[(startIndex)], components[(startIndex+1)%components.length], components[(startIndex+2)%components.length]];
   };
   console.log(startIndex);
 
   return (
     <div className="fornow">
-      <button onClick={previousSlide}>Previous</button>
+      <button onClick={previousSlide}><ArrowBackIosNewOutlinedIcon/></button>
       {renderComponents()}
-      <button onClick={nextSlide}>Next</button>
+      <button onClick={nextSlide}><ArrowForwardIosOutlinedIcon/></button>
     </div>
   );
 };

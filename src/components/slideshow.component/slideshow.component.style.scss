@@ -6,16 +6,17 @@
     display: flex;
     justify-content: center;
     background-size: cover;
+
     :first-child{
         width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 0.5s;
-    }
-    :first-child:hover{
-        filter: brightness(87%);
+        transition: 1s;
+        &:hover{
+            filter: brightness(90%);
+        }
     }
     p{
         margin-top: 75%;

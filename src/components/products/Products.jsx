@@ -1,8 +1,14 @@
 import React from 'react'
 import "./Products.style.scss"
-const Products = () => {
+import { ImageBackground } from "react-native";
+
+const Products = (props) => {
   return (
-    <div>Products</div>
+    <div className='productsall'>
+      <ImageBackground className="SlideShowCompImg" source={props.ImgSrc}>
+        <p>{props.LableTag}</p>
+      </ImageBackground>
+    </div>
   )
 }
 

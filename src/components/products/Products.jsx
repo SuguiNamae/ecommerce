@@ -7,6 +7,7 @@ const Products = (props) => {
     <div className='productsall'>
       <ImageBackground className="SlideShowCompImg" source={props.ImgSrc}>
         <p>{props.LableTag}</p>
+        <span>{props.price}</span>
       </ImageBackground>
     </div>
   )

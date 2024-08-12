@@ -38,5 +38,34 @@
         justify-content: center;
         color: #C3EAFB;
     }
-
+    .shopicon{
+        width: 3rem;
+    }
+    .holdericon{
+        display:"flex";
+        justify-Content:"center";
+        align-Items:"center"
+    }
 }
+@media (max-width:800px) {
+    .productsall{
+        width: 20dvw;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+     p{
+        display: none;
+     }
+     .shopicon, span{
+        width: 1.5rem;
+     }
+     .holdericon{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+     }
+    }
+     
+     
+ }

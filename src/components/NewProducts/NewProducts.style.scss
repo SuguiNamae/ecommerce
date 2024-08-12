@@ -36,8 +36,15 @@
     .newslideshow{
      height: fit-content;
      margin-top: 5%;
+     .newslideforflex{
+        display: flex;
+        justify-content: space-evenly;
+     }
+     .fortext{
+     margin-left: 10%;
+     font-size: 1.3rem;
     }
      
      
- }
+ }}
  

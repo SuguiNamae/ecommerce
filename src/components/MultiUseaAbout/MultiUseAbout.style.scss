@@ -21,10 +21,11 @@
 }
 @media (max-width:800px) {
     .multiusecomp{
+        display: flex;
+        flex-direction: column;
         img{
-            width: 50%;
+            width: 100%;
             height: auto;
-
         }
     }
      

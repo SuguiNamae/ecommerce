@@ -31,3 +31,11 @@
         font-size: 1.25rem;
     }
 }
+@media (max-width:800px) {
+    .slideshowcompforall{
+        p{
+            display: none;
+        }
+    }
+  
+ }

@@ -30,3 +30,23 @@
     padding-top: 20px;
     padding-bottom: 30px;
 }
+@media (max-width:800px) {
+    .containallpage{
+        height: auto;
+        padding: 5%;
+        p{
+            font-size: 0.9rem;
+        }
+        .txt1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+
+    }
+     
+     
+ }

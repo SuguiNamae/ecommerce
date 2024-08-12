@@ -20,9 +20,9 @@ const Products = (props) => {
     <Link className="productsall" to={"/shopping"}>
       <ImageBackground className="SlideShowCompImg" source={props.ImgSrc}>
         <p>{props.LableTag}</p>
-        <div style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
+        <div className="holdericon" >
           <span>{props.price}</span>
-          <div onClick={handleAddToCart} style={{ width: "3rem" }}>
+          <div className="shopicon" onClick={handleAddToCart} >
             <ShoppingCartIcon />
           </div>
         </div>

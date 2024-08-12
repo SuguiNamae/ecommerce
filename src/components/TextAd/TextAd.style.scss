@@ -8,7 +8,6 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    // width: 98.9dvw;
 }
 .p1 {
     color: #C3EAFB;
@@ -27,3 +26,11 @@
     width: 50%;
     padding-bottom: 20px;
 }
+@media (max-width:800px) {
+    .containtexts{
+        height: auto;
+        .p3{
+            display: none;
+        }
+    }
+ }

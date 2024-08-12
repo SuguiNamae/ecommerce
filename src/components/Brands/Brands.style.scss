@@ -4,17 +4,12 @@
     justify-content: space-around;
     padding-top: 60px;
 }
-@media (max-width:770px) {
-    .forbrands{
-        :first-child{
-        display: none;}
-    }   
-}
+
 @media (max-width:430px) {
     .forbrands{
-        :last-child , :nth-child(3){
-        display: none;
-    }
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 3%;
     }
     
 }

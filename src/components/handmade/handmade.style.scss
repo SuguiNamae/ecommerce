@@ -22,7 +22,14 @@
     .bghandmade{
      height: 50dvh;
      margin-top: 20%;
-     padding-bottom: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0;
+     :nth-child(2){
+        padding: 0;
+        display: flex;
+     }
      p{
         display: none;
      }

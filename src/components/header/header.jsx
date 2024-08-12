@@ -28,13 +28,15 @@ const Header = () => {
         <Link to="/about">ABOUT</Link>
         <Link to="/colections">SALE</Link>
         <Link to="/contact-us">CONTACT US</Link>
+        <Link to="/Cart">Cart</Link>
+
       </div>
       <div className="divprof">
-        <PersonOutlineOutlinedIcon /> <SearchIcon />{" "}
-        <FavoriteBorderOutlinedIcon />{" "}
+        <PersonOutlineOutlinedIcon /> <SearchIcon />
+        <FavoriteBorderOutlinedIcon />
         <Link to={"/Cart"}>
           <ShoppingBagOutlinedIcon />
-        </Link>{" "}
+        </Link>
         <div className="circleblack">{cartItems.length}</div>
       </div>
     </div>

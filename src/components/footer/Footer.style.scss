@@ -1,7 +1,6 @@
 .footerall {
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-around;
     padding-bottom: 55px;
 }
 .basicinfo {
@@ -46,4 +45,11 @@
 .footertxt {
     font-size: 1.2rem;
     font-weight: 350;
+}
+@media (max-width:430px) {
+    .forgrid{
+        display: none;
+    }
+    
+    
 }

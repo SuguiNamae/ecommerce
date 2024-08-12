@@ -1,7 +1,7 @@
 .contactinfohelpforall{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center;
 }
 .contactinfohelpfortxts{
@@ -18,11 +18,11 @@
 .contactinfohelpfourdivs{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 150px;
+    grid-column-gap: auto;
     div{
         display: flex;
         flex-direction: column;
-        width: 200px;
+        width: 80%;
         justify-content: center;
         align-items: left;
         text-align: left;

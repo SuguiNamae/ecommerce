@@ -1,8 +1,10 @@
 import React from 'react'
 import "./ButtonShopNow.style.scss"
+import { Link } from 'react-router-dom';
+
 const ButtonShopNow = () => {
   return (
-    <button className='ReuseButton'>SHOP NOW</button>
+    <Link className='ReuseButton' to={"/shopping"}>SHOP NOW</Link>
   )
 }
 

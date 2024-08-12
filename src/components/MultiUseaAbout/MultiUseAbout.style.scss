@@ -1,7 +1,7 @@
 .multiusecomp {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
     text-align: left;
     padding-top: 60px;
@@ -19,3 +19,15 @@
     font-size: 1rem;
     color: #797B7E;
 }
+@media (max-width:800px) {
+    .multiusecomp{
+        img{
+            width: 50%;
+            height: auto;
+
+        }
+    }
+     
+     
+ }
+ 

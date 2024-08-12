@@ -4,7 +4,7 @@ import ButtonShopNow from '../ButtonShopNow/ButtonShopNow'
 const IceCream = () => {
   return (
     <div className="containallpage">
-      <img src="/assets/images/img_15.png" alt="" />
+      <img src="/assets/images/img_15.png" alt="ice cream" />
       <div className="secondarydiv">
         <p className="txt1">
           ICE CREAMS

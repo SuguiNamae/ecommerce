@@ -1,13 +1,17 @@
 .ReuseButton {
     color: #FFFFFF;
     border: none;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 550;
     background-color: #C3EAFB;
     width: 9.5rem;
     height: 2.8rem;
     border-radius: 20px;
-    transition: 0.7s;    
+    transition: 0.7s;   
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ReuseButton:hover{
     background-color: #0d0d0e;

@@ -1,5 +1,4 @@
 .bghandmade {
-    // background-image: url("../../../public/assets/images/img_20_e28c41a0-dcc2-4979-805b-e28c120d84f4.png");
     background-image: url("../../../public/assets/images/img_20_e28c41a0-dcc2-4979-805b-e28c120d84f4.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -19,3 +18,16 @@
         padding-bottom: 30px;
     }
 }
+@media (max-width:800px) {
+    .bghandmade{
+     height: 50dvh;
+     margin-top: 20%;
+     padding-bottom: 0;
+     p{
+        display: none;
+     }
+    }
+     
+     
+ }
+ 

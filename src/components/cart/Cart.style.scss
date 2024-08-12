@@ -1,0 +1,40 @@
+.cartforall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 15%;
+        background-color: #C3EAFB;
+        border: 1px grey solid;
+        border-radius: 40px;
+        margin-top: 10%;
+        font-size: 1.5rem;
+        padding: 10px;
+        transition: 1s;
+    }
+    button:hover{
+        background-color: #accedc;
+    }
+    ul{
+        list-style: none;
+    }
+    .listdivitem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        img{
+            width: 20%;
+        }
+        .closeicon{
+            color: red;
+            transition: 500ms;
+            background-color:#C3EAFB ;
+            border-radius: 50%;
+            :hover{
+                color: rgb(247, 181, 159);}
+            
+        }
+    }
+}

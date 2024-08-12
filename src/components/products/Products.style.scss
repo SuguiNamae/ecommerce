@@ -3,6 +3,7 @@
     background-color: rgb(241, 241, 241);
     width: 26dvw;
     aspect-ratio: 1;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     background-size: cover;
@@ -18,9 +19,11 @@
         }
     }
     p{
-        margin-top: 100%;
+        margin-top: 84%;
+        margin-bottom: 1%;
         background-color: #ffefef4f;
         display: flex;
+        color: black;
         justify-content: center;
         align-items: center;
         font-weight: 400;
@@ -29,11 +32,11 @@
         font-size: 1.25rem;
     }
     span{
-        margin-top: -20%;
         font-size: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
         color: #C3EAFB;
     }
+
 }

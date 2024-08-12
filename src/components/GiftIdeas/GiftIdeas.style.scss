@@ -1,8 +1,9 @@
 .mainflexdiv {
     display: flex;
-    width: 100%;
+    margin-top: 5%;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 5%;
 }
 .squarediv {
     display: flex;
@@ -16,8 +17,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 52dvh;
-    width: 26dvw;
+    padding: 5%;
     transition: 1s;
     :first-child{
         font-size: 4rem;
@@ -26,15 +26,15 @@
     }
 }
 .squarediv:hover {
-    background-size: 102%;
+    background-size: 104%;
 }
 .squaredivsecond {
     background-image: url("../../../public/assets/images/img_19_2000x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 52dvh;
-    width: 50dvw;
+    padding: 0;
+    padding-bottom: 1%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -50,5 +50,35 @@
         font-weight: 650;
         line-height: 2.6rem;
         padding-bottom: 50px;
+
     }
+}
+@media (max-width:800px) {
+    .squaredivsecond{
+        height: 20dvh;
+        width: 50dvw;
+
+        :nth-child(2){
+        display: none;}
+    }
+    .squarediv{
+        height: 20dvh;
+        width: 25dvw;
+        p{
+            display: none;
+        }
+    }
+    
+}
+@media (min-width:800px) {
+    .squaredivsecond{
+        height: 40dvh;
+        width: 50dvw;
+    }
+    .squarediv{
+        height: 40dvh;
+        width: 27dvw;
+    }
+
+    
 }
